@@ -1,0 +1,18 @@
+{
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cn\\(([^)]*)\\)", "(?:'|\"|`)([^\"'`]*)(?:'|\"|`)"]
+	],
+	"tailwindCSS.includeLanguages": {
+		"typescript": "javascript",
+		"typescriptreact": "javascript"
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"css.validate": false,
+	"tailwindCSS.emmetCompletions": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	}
+}
